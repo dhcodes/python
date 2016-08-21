@@ -1,0 +1,18 @@
+cities = ["Milwaukee", "Cleveland", "San Francisco", "Seattle", "Detroit"]
+print(len(cities))
+print(cities.pop())
+del cities[0]
+print(cities)
+cities.insert(0, "Chicago")
+cities.append("Philadelphia")
+print(sorted(cities))
+print(sorted(cities, reverse=True))
+print(cities)
+cities.remove("Chicago")
+print(cities)
+cities.reverse()
+print(cities)
+cities.sort()
+print(cities)
+print(cities[0].lower())
+print(cities[3].upper())
